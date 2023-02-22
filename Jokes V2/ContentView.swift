@@ -10,9 +10,9 @@ import SwiftUI
 struct ContentView: View {
     
     var jokes=[
+        joke(setup: "Why did the chicken cross the road?", punchline: "To get to the other side!"),
         joke(setup: "Why couldn't the bicycle stand up?",
              punchline: "It was two tired!"),
-        joke(setup: "Why did the chicken cross the road?", punchline: "To get to the other side!"),
         joke(setup: "Is this pool safe for diving?",
              punchline:  "to cross the road")
     ]
